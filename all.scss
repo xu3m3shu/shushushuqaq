@@ -30,4 +30,6 @@ _all--define.scss 包含
 @import "main/_main_num.scss";
 
 @import "ProjectName/data/_all--data.scss";
+// data 是html 屬性 data-*
+// 通常用來做於 更改布景顏色 data-color="default" ..black  ...etc
 /*某個Project專案底下的資料夾*/
