@@ -1,0 +1,33 @@
+/*define是通常會用的東西*/
+@import "define/_all--define.scss";
+
+/*
+_all--define.scss 包含
+
+@import 
+"_var--num.scss";
+
+
+@import "_color--all.scss",
+"_color--list.scss";
+
+@import "_mix--background.scss",
+"_mix--delayandtransition.scss",
+"_mix--flex.scss",
+"_mix--screen.scss",
+"_mix--gobal.scss";
+
+*/
+
+/*某個Project專案底下的資料夾*/
+@import "main/_main_var.scss";
+
+@import "main/_bar--top.scss";
+@import "main/_bar--side.scss";
+@import "main/_content_main.scss";
+@import "main/_table.scss";
+
+@import "main/_main_num.scss";
+
+@import "ProjectName/data/_all--data.scss";
+/*某個Project專案底下的資料夾*/
